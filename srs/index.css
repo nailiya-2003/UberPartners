@@ -1,0 +1,428 @@
+h1 {
+    font-family: 'times new roman', palatino linotype, athena, tahoma;
+    font-size: 12pt;
+    color: rgb(204,0,0);
+    font-weight: bold;
+    text-align: center;
+   
+}
+body {
+    background-color: rgb(255, 255, 224);
+    font-family: 'times new roman', palatino linotype, athena, tahoma;
+    font-size: 10pt;
+    color: rgb(0,0,0);
+    text-align: left;
+    
+ 
+}
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    width: 1140px;
+  }
+  
+  header {
+    position: relative;
+    height: 53px;
+    background: #212121;
+  }
+  
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px 70px;
+    margin: 0px;
+    list-style-type: none;
+  }
+  
+  .menu_item {
+    line-height: 29px;
+    border-right: 7px dotted black;
+    padding-right: 28px;
+  }
+  
+  .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  
+  .subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .logo_img {
+    display: block;
+    min-width: 100%;
+    margin-top: 17px;
+  }
+  
+  .official {
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+  }
+  
+  .subheader_call {
+    display: block;
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  
+  .numphone {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  .sbhdr {
+    width: 172px;
+    height: 46px;
+    margin-top: 20px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+  }
+
+  .partners_uber {
+    min-height: 750px;
+    background: url("img/uber_bg.png") center center/cover no-repeat;
+  }
+  
+  h1 {
+    display: block;
+    margin-top: 110px;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  .invitation {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 24px;
+  }
+  
+  .invitation_text {
+    display: block;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .send {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  }
+  
+  .benefits {
+    height: 851px;
+  }
+  
+  .round {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+  }
+  
+  .regtangle {
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 115px;
+    height: 27px;
+  }
+  
+  .regtangle_text {
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+  
+  .reason {
+    display: block;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  
+  .wrapper {
+    display: block;
+    margin-top: 40px;
+  }
+  
+  .text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+  }
+  
+  span {
+    color: #087389;
+  }
+  
+  .dollars_text {
+    display: block;
+    margin-top: 18px;
+  }
+  
+  .key_text {
+    display: block;
+    margin-top: 23px;
+  }
+  
+  .telephone {
+    display: block;
+    margin-top: 25px;
+  }
+  
+  .round_text {
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .location_text {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .car_text {
+    display: block;
+    margin-top: 28px;
+  }
+  
+  .mobile_app {
+    min-height: 864px;
+    padding: 40px 0 80px 0;
+  }
+  .mobile_app .app {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  
+  .mobile_app {
+    min-height: 864px;
+    padding: 50px 0 80px 0;
+    background: url("img/mobile_bg.png") center center/cover no-repeat;
+  }
+  .mobile_app .row {
+    margin-top: 32px;
+  }
+  .mobile_app_item {
+    position: relative;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 88px;
+  }
+  .mobile_app_item .mobile_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .mobile_app_item .mobile_subtitle_plus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    bottom: 41px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin: 0 auto;
+    width: 29px;
+    height: 29px;
+    background: #000000;
+    border-radius: 100%;
+  }
+  .mobile_app_item_1 {
+    background: url("img/card1.png") center center/cover no-repeat;
+  }
+  .mobile_app_item_2 {
+    background: url("img/card2.png") center center/cover no-repeat;
+  }
+  .mobile_app_item_3 {
+    background: url("img/card3.png") center center/cover no-repeat;
+  }
+  .mobile_app_item_4 {
+    background: url("img/card4.png") center center/cover no-repeat;
+  }
+  .mobile_app_item_5 {
+    background: url("img/card5.png") center center/cover no-repeat;
+  }
+  .mobile_app_item_6 {
+    background: url("img/card6.png") center center/cover no-repeat;
+  }
+  .mobile_app .regtangle_text {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: black;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .mobile_app .app {
+    display: block;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  .mobile_app .subtitle_app {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #222222;
+  }
+  
+  .car_choice {
+    min-height: 896px;
+    position: relative;
+  }
+  .car_choice_opportinues {
+    height: 499px;
+    background: #070716;
+    padding-top: 56px;
+  }
+  .car_choice_rectangle {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #070716;
+  }
+  .car_choice_grid {
+    background: url("img/carsforeveryday.png") center center/cover no-repeat;
+    height: 397px;
+  }
+  .car_choice_grid img {
+    display: block;
+    position: absolute;
+    bottom: 181px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .car_choice_grid .carsforeverydays {
+    position: absolute;
+    bottom: 137px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .car_choice_perfect {
+    display: block;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .car_choice_text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }/*# sourceMappingURL=style.css.map */
+  

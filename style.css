@@ -1,6 +1,5 @@
 * {
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
 }
 
 .container {
@@ -40,6 +39,7 @@ header {
   font-size: 15px;
   line-height: 15px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .subheader {
